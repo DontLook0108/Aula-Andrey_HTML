@@ -4,3 +4,4 @@ var senha = document.login.senha;
 senha.addEventListener("blur", function(){
     document.login.usuario.value = senha.value;
 });
+
