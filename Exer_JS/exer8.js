@@ -30,4 +30,11 @@ for(var cont = 0; cont < nomes.length; cont++)
     if(qui.addEventListener("click", function(){
         alert(qui.textContent);
     })); 
-}
+} 
+
+//var nomes =document.querySelector("li"); 
+//nomes.forEach(function(nome){
+    //nome.addEventListener("click", function(){
+        //alert(this.textContent);
+    //});
+//});
